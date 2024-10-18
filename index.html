@@ -3,62 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Khansa EmpowermentWali - Personal Portfolio">
-    <meta name="keywords" content="Khansa, EmpowermentWali, Portfolio, Personal website">
-    <meta name="author" content="Khansa EmpowermentWali">
     <title>Khansa EmpowermentWali | Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="profile-image">
+                <img src="image1.png" alt="Khansa EmpowermentWali">
+            </div>
+            <h1 class="name">Khansa EmpowermentWali</h1>
+            <h2 class="tagline">Empowering Educator | Content Creator | AI Enthusiast</h2>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="home">
-        <div class="intro">
-            <img src="image1.png" alt="Khansa EmpowermentWali" class="profile-pic">
-            <h1>Khansa EmpowermentWali</h1>
-            <p>Empowering through education, inspiration, and action</p>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Khansa, also known as "EmpowermentWali." I am passionate about inspiring others through education and personal growth. I focus on helping individuals reach their full potential through motivational content and insightful conversations.</p>
         </div>
     </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Khansa Salman, a passionate advocate for personal growth and empowerment. I strive to inspire others through my series 'Empower Yourself,' where I share insights on personal and professional development. My journey is focused on helping individuals reach their full potential by offering practical advice and motivation.</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-list">
-            <div class="project-item">
-                <h3>Empower Yourself Series</h3>
-                <p>An ongoing series designed to inspire and motivate individuals towards self-improvement and growth.</p>
-            </div>
-            <div class="project-item">
-                <h3>Unfiltered Convo Podcast</h3>
-                <p>A podcast where I have unfiltered conversations on various topics that matter in today's world.</p>
+    <section id="portfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <h3>Empower Yourself Series</h3>
+                    <p>A motivational series that focuses on personal growth, mindset, and empowerment strategies.</p>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Unfiltered Convo Podcast</h3>
+                    <p>A podcast where I discuss raw and real topics that impact personal and professional development.</p>
+                </div>
+                <div class="portfolio-item">
+                    <h3>AI Content</h3>
+                    <p>Content exploring the latest in AI, including tools and tips to boost your journey in the digital world.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>If you'd like to collaborate or just say hello, feel free to reach out!</p>
-        <ul>
-            <li>Email: <a href="mailto:khansa@example.com">khansa@example.com</a></li>
-            <li>LinkedIn: <a href="https://linkedin.com/in/khansa">Khansa EmpowermentWali</a></li>
-        </ul>
+        <div class="container">
+            <h2>Contact</h2>
+            <p>I'd love to hear from you! Whether you have questions or would like to collaborate, feel free to reach out.</p>
+            <a href="mailto:khansa@example.com" class="button"><i class="fas fa-envelope"></i> Email Me</a>
+            <p>Connect with me on social media:</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/KhansaEmpowermentWali" target="_blank" class="social-button facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://www.linkedin.com/in/khansaempowermentwali/" target="_blank" class="social-button linkedin"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Khansa EmpowermentWali. All rights reserved.</p>
+        <div class="container">
+            <p>© 2024 Khansa EmpowermentWali</p>
+        </div>
     </footer>
 </body>
 </html>
